@@ -58,7 +58,6 @@
     border: none;
     border-radius: 50px 0px 50px 50px;
     cursor: pointer;
-    border-radius: 2px;
 }
 .title-img{
     padding-top: 30px;
@@ -88,6 +87,7 @@
     background-color: #32B260;
     border: none;
     cursor: pointer;
+    border-radius:2px;
 }
 .brands{
     
