@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('fonts/gilroy-extrabold.woff2') format('woff2'),
+         url('fonts/gilroy-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gilroylight';
+    src: url('fonts/gilroy-light.woff2') format('woff2'),
+         url('fonts/gilroy-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-section{
+    background-image:url(/images/bg.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.platter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.navigation{
+    padding-top: 25px;
+    justify-content: space-evenly;
+}
+
+.manue{
+    justify-content: space-between;
+    width: 20%;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 16px;
+}
+
+.started-btn{
+    width: 134px;
+    height: 50px;
+    background-color:#32B260;
+    border: none;
+    border-radius: 50px 0px 50px 50px;
+    cursor: pointer;
+}
+.title-img{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:70%;
+    height: 67%;
+    margin: auto;
+}
+
+.heading{
+    margin-bottom: 35px;
+    font-size: 56px;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    color: #000000 !important;
+}
+.title p{
+    color: #5B5B5B;
+    margin-bottom: 35px;
+}
+
+.title button{
+    width: 215px;
+    height: 65px;
+    color: white;
+    background-color: #32B260;
+    border: none;
+    cursor: pointer;
+}
+.brands{
+    
+    justify-content: space-between;
+    width: 1139px;
+    height: 145px;
+    margin: auto;
+}
+.brand-box{
+    width: 158px;
+    height: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 200px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
